@@ -1,5 +1,9 @@
 /* write your override styles here  display:none; */
 
 #wall .tag-1 {
-    display: none;
+  display: none;
+}
+
+.tag-1 + #tag-2 {
+  display: none;
 }
